@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing </title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Header */
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header h1 {
+            float: left;
+            margin-top: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        /* Section */
+        .section {
+            padding: 20px 0;
+            margin: 20px 0;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Blog Posts */
+        .blog-posts {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .post {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .post h3 {
+            margin-bottom: 10px;
+        }
+
+        .post a {
+            color: #35424a;
+            text-decoration: none;
+        }
+
+        .post a:hover {
+            text-decoration: underline;
+        }
+
+        /* Form */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px;
+            background: #35424a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #e8491d;
+        }
+
+        /* Footer */
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cloud Computing </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to My Cloud Computing Blog</h2>
+            <p>
+                Explore the latest trends, technologies, and insights in cloud computing. From understanding the basics to diving into complex cloud architectures, this blog covers it all. Whether you're new to cloud computing or an experienced professional, you'll find valuable resources and information here to enhance your knowledge.
+            </p>
+            <p>
+                Cloud computing has revolutionized the way we think about computing resources. With the ability to access scalable and elastic resources over the internet, businesses can innovate faster, reduce costs, and improve efficiency. This blog will guide you through the world of cloud services, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate cloud computing enthusiast with years of experience in the IT industry. My journey began with a curiosity for how the cloud can transform business operations, and now I'm dedicated to sharing that knowledge with others. Through this blog, I aim to provide insightful content that helps readers understand the intricacies of cloud computing and how it can be leveraged for success.
+            </p>
+            <p>
+                With a background in software development and cloud architecture, I have worked on numerous projects that harness the power of the cloud to deliver innovative solutions. My goal is to demystify cloud computing, making it accessible and understandable for everyone, from beginners to experts.
+            </p>
+        </div>
+    </section>
+
+    <section id="blog" class="section">
+        <div class="container">
+            <h2>Latest Posts</h2>
+            <div class="blog-posts">
+                <article class="post">
+                    <h3>Introduction to Cloud Computing</h3>
+                    <p>
+                        Cloud computing is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software. Cloud-based storage makes it possible to save files to a remote database and retrieve them on demand. This post covers the basics and introduces key concepts to get you started on your cloud journey.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="post">
+                    <h3>Benefits of Cloud Computing</h3>
+                    <p>
+                        Cloud computing offers numerous benefits, including cost efficiency, scalability, and flexibility. By moving to the cloud, businesses can reduce their dependency on physical infrastructure, allowing them to scale up or down based on demand. This post explores the key benefits and how cloud computing can drive innovation and growth for your business.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+                <!-- Add more posts as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                If you have any questions or want to connect, feel free to reach out! I'm always open to discussing cloud computing, answering your queries, or even collaborating on new projects. Fill out the form below, and I'll get back to you as soon as possible.
+            </p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cloud Computing Blog. All rights reserved.</p>
+            <p>Created by Yaswanth Suryadevara</p>
+            <p>Contact: <a href="mailto:suryadevarayaswanth@gmail.com" style="color: #ffffff;">suryadevarayaswanth@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Smooth scrolling for nav links
+            const navLinks = document.querySelectorAll('nav ul li a');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Simple form validation (client-side)
+            const form = document.querySelector('form');
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Message sent successfully!');
+                form.reset();
+            });
+        });
+    </script>
+</body>
+</html>
